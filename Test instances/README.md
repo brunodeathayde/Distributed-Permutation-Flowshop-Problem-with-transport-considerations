@@ -11,9 +11,7 @@ Each category varies in scale, structure, and parameter combinations.
 from dataclasses import dataclass
 from typing import List, Tuple
 
-@dataclass
-class SmallSizedInstances:
-   
+  
     
     🔹 Small-Sized Instances
 
@@ -30,9 +28,7 @@ class SmallSizedInstances:
         "d_j = max(r_j) + sum(p_ij) * (1 + rand * (1/n_f) * 0.5), where rand ∈ Uniform(0, 1)"
     )
 
-@dataclass
-class LargeSizedInstances:
-  
+ 
     
     🔸 Large-Sized Instances (Extended Taillard Testbed)
 
