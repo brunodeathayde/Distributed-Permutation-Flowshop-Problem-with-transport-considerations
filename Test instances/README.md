@@ -65,4 +65,4 @@ Adapted from the well-known Taillard benchmark and scaled for more intensive tes
 ## 📬 Contact
 
 For questions or collaboration, feel free to reach out to:  
-**BRUNO** – [Insert GitHub profile or email]
+**BRUNO** – baprata@ufc.br
