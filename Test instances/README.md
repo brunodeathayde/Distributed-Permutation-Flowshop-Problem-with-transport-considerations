@@ -50,37 +50,3 @@ class LargeSizedInstances:
         "Based on Taillard’s structure with extended parameters for family-based scheduling. "
         "Processing times, release dates, and due dates follow the same logic as the small-sized set."
     )
-
-@dataclass
-class TestInstanceDescription:
-    """
-    📦 Combined Test Instance Description
-    """
-    small: SmallSizedInstances = SmallSizedInstances()
-    large: LargeSizedInstances = LargeSizedInstances()
-
-    def display(self):
-        print("🧪 Test Instance Description\n")
-
-        print("🔹 Small-Sized Instances")
-        print(f"  • Job counts (n): {self.small.job_counts}")
-        print(f"  • Machine counts (m): {self.small.machine_counts}")
-        print(f"  • Family counts (nf): {self.small.family_counts}")
-        print(f"  • Instances per configuration: {self.small.instances_per_configuration}")
-        print(f"  • Total instances: {self.small.total_instances}")
-        print("  Attributes:")
-        print(f"    • Processing times (pᵢⱼ): {self.small.processing_time_distribution}")
-        print(f"    • Release dates (rⱼ): {self.small.release_date_distribution}")
-        print(f"    • Due dates (dⱼ): {self.small.due_date_formula}\n")
-
-        print("🔸 Large-Sized Instances (Extended Taillard Testbed)")
-        print(f"  • (Jobs × Machines) configurations: {self.large.job_machine_configurations}")
-        print(f"  • Instances per configuration: {self.large.instances_per_configuration}")
-        print(f"  • Family counts (nf): {self.large.family_counts}")
-        print(f"  • Total instances: {self.large.total_instances}")
-        print("  Attributes:")
-        print(f"    • {self.large.attributes_note}")
-
-if __name__ == "__main__":
-    description = TestInstanceDescription()
-    description.display()
