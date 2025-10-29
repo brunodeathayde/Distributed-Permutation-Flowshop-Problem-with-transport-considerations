@@ -13,7 +13,8 @@ from typing import List, Tuple
 
 @dataclass
 class SmallSizedInstances:
-    """
+   
+    
     🔹 Small-Sized Instances
 
     Compact instances designed for preliminary testing or algorithm tuning.
@@ -31,7 +32,8 @@ class SmallSizedInstances:
 
 @dataclass
 class LargeSizedInstances:
-    """
+  
+    
     🔸 Large-Sized Instances (Extended Taillard Testbed)
 
     Adapted from the well-known Taillard benchmark and scaled for more intensive testing.
