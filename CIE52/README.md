@@ -55,7 +55,7 @@ This repository is intended for researchers and practitioners interested in sche
 ## 📬 Contact
 
 For questions or collaboration inquiries, please contact:  
-**BRUNO** – [Insert email or GitHub profile link]
+**BRUNO** – baprata@ufc.br
 
 ---
 
